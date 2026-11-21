@@ -20,14 +20,14 @@ Download and install John the Ripper for Windows, or use the version available i
 
 **Screenshot 1 — John the Ripper installation**
 
-![alt text](image-1.png)
+![alt text](/screenshots3/image-1.png)
 
 ### 2. Install Johnny GUI
 Install Johnny and configure it to use the John the Ripper executable.
 
 **Screenshot 2 — Johnny GUI installation**
 
-![alt text](image-2.png)
+![alt text](/screenshots3/image-2.png)
 
 - https://openwall.info/wiki/john/johnny
 
@@ -37,11 +37,11 @@ Open Johnny's settings and browse to the John the Ripper executable.
 
 **Screenshot 3 — Johnny settings**
 
-![alt text](image-3.png)
+![alt text](/screenshots3/image-3.png)
 
 **Screenshot 4 — John.exe configured in Johnny**
 
-![alt text](image-4.png)
+![alt text](/screenshots3/image-4.png)
 
 ### 4. Obtain the lab PDF and extract its hash
 Download the password-protected PDF provided for the exercise, then use a PDF hash-extraction tool.
@@ -50,25 +50,25 @@ Download the password-protected PDF provided for the exercise, then use a PDF ha
 
 **Screenshot 5 — Encrypted PDF for the lab**
 
-![alt text](image-5.png)
+![alt text](/screenshots3/image-5.png)
 
 **Screenshot 6 — PDF hash extraction**
 
-![alt text](image-6.png)
+![alt text](/screenshots3/image-6.png)
 
 ### 5. Save and load the hash
 Copy the complete extracted hash into a text file (for example, `hash1.txt`). Import the file into Johnny and start an attack.
 
 **Screenshot 7 — Hash loaded in Johnny**
 
-![alt text](image-7.png)
+![alt text](/screenshots3/image-7.png)
 
 ### 6. Recover and verify the password
 When the attack finishes, view the recovered password and use it to open the protected PDF.
 
 **Screenshot 8 — Password recovery and PDF verification**
 
-![alt text](image-8.png)
+![alt text](/screenshots3/image-8.png)
 
 ---
 
@@ -86,18 +86,18 @@ Open the NETWORKWALKS Hash Calculator and upload the locked PDF.
 
 **Screenshot 9 — NETWORKWALKS Hash Calculator**
 
-![alt text](image-9.png)
+![alt text](/screenshots3/image-9.png)
 
 **Screenshot 10 — PDF uploaded and hash generated**
 
-![alt text](image-10.png)
+![alt text](/screenshots3/image-10.png)
 
 ### 3. Copy the complete hash
 Copy the entire hash, including the `$pdf$` prefix. Check that the value has not been truncated.
 
 **Screenshot 11 — Complete PDF hash**
 
-![alt text](image-11.png)
+![alt text](/screenshots3/image-11.png)
 
 ### 4. Run the NETWORKWALKS Password Cracker
 Open the Password Cracker and submit the extracted hash.
@@ -106,29 +106,29 @@ Open the Password Cracker and submit the extracted hash.
 
 **Screenshot 12 — NETWORKWALKS Password Cracker**
 
-![alt text](image-12.png)
+![alt text](/screenshots3/image-12.png)
 
 ### 5. Review the cracking result
 Wait for the tool to finish. The time required may vary depending on the password's complexity.
 
 **Screenshot 13 — Password-cracking process**
 
-![alt text](image-13.png)
+![alt text](/screenshots3/image-13.png)
 
 **Screenshot 14 — Cracking result**
 
-![alt text](image-14.png)
+![alt text](/screenshots3/image-14.png)
 
 ### 6. Verify the recovered password
 Enter the recovered password to open the protected PDF.
 
 **Screenshot 15 — Unlocking the PDF**
 
-![alt text](image-15.png)
+![alt text](/screenshots3/image-15.png)
 
 **Screenshot 16 — Successful PDF access**
 
-![alt text](image-16.png)
+![alt text](/screenshots3/image-16.png)
 
 ---
 
